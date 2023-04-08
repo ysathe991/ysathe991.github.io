@@ -8,21 +8,21 @@
 </head>
 <body>
     <div id="nav-menu">
-        <div class="nav-link home"></div>
-        <div class="nav-link about"></div>
-        <div class="nav-link skills"></div>
-        <div class="nav-link projects"></div>
-        <div class="nav-link contact"></div>
+        <div class="nav-link home" href="#home"></div>
+        <div class="nav-link about" href="#about"></div>
+        <div class="nav-link skills" href="#skills"></div>
+        <div class="nav-link projects" href="projects"></div>
+        <div class="nav-link contact" href="contact"></div>
         <div class="nav-link resume">
-            <button id="resume-button-1"></button>
+            <button id="resume-button-1"><a href="https://drive.google.com/file/d/1fEflhyfOs3yR0WSIJTYs8rY_zAIbH2kn/view"></a></button>
         </div>
     </div>
     <div id="home">
-        <div id="resume-button-2"></div>
-        <div  class="react-activity-calendar" src="">s</div>
-        <div id="github-streak-stats" src="github-readme-streak-stats.herokuapp.com" >github-readme-streak-stats.herokuapp.com</div>
-        <div id="github-top-langs"src='github-readme-stats.vercel.app/api/top-langs' >github-readme-stats.vercel.app/api/top-langs</div>
-        <div id="github-stats-card" src="github-readme-stats.vercel.app/api">github-readme-stats.vercel.app/api</div>
+        <div id="resume-button-2"> <a href="https://drive.google.com/file/d/1fEflhyfOs3yR0WSIJTYs8rY_zAIbH2kn/view"></a></div>
+        <div  class="react-activity-calendar" src="https://github-readme-streak-stats.herokuapp.com?user=ysathe991">s</div>
+        <div id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=ysathe991" >github-readme-streak-stats.herokuapp.com</div>
+        <div id="github-top-langs" src="https://github-readme-streak-stats.herokuapp.com?user=ysathe991" >github-readme-stats.vercel.app/api/top-langs</div>
+        <div id="github-stats-card" src="https://github-readme-streak-stats.herokuapp.com?user=ysathe991">github-readme-stats.vercel.app/api</div>
     </div>
     <div id="about" class="about section">
         <div id='about.about.section'></div>
@@ -36,12 +36,15 @@
         <div id="contact-phone">9049101160</div>
         <div id="contact-email">ysathe991</div>
     </div>
-    <div id="skills"></div>
+    <div id="skills">
+        <div class="skills-card"></div>
+    </div>
     <div id="projects">
         <div class="project-card">
             <div  class="skills-card-img">
                 <img src="" alt="">
             </div>
+            <div class="project-title"></div>
             <div  class="skills-card-name">
                 <div class="skills-card"></div>
             </div>
@@ -52,3 +55,14 @@
     <div  id="user-detail-name">Yogesh sathe</div>
 </body>
 </html>
+
+<script>
+
+const resume1 = document.getElementById('resume-button-1').addEventListener(()=>{
+    console.log(100);
+})
+
+const resume2 = document.getElementById('resume-button-2').addEventListener(()=>{
+    console.log(100);
+})
+</script>
