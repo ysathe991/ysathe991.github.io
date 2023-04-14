@@ -8,8 +8,8 @@
   position: sticky;
   top: 0;
   z-index: 9999;
-
 }
+
 #nav-menu>a>div{
   text-decoration: none;
   color: black;
@@ -17,4 +17,5 @@
 }
 a{
     text-decoration: none;
+    
 }
