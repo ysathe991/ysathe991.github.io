@@ -1,21 +1,64 @@
 #nav-menu {
-  width: 80%;
-  border: 2px solid green;
+  width: 100%;
+  border: 0px 1px 1px 0px solid black;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: auto;
-  padding: 10px;
+  padding-top: 10px;
   position: sticky;
   top: 0;
   z-index: 9999;
+  background-color: white;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
-#nav-menu>a>div{
+#nav-menu>a{
   text-decoration: none;
-  color: black;
-  font-size: 20px;
+  font-size: large;
 }
-a{
-    text-decoration: none;
-    
+#nav-menu>a>div{
+  color: black;
+}
+#logo>a>img{
+  width: 30px;
+}
+#logo>a{
+  text-decoration: none;
+}
+#resume-button-1>a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+#resume-button-1 {
+  background-color: rgb(18, 184, 239);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#resume-button-1:hover,
+#resume-button-1:focus {
+  background-color: #F082AC;
 }
