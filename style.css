@@ -6,28 +6,24 @@
   margin: auto;
   padding: 10px;
   position: sticky;
-  top: 0;
   z-index: 9999;
-  background-color: white;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 #nav-menu>a{
   text-decoration: none;
 }
-#nav-menu > a > div {
+#nav-menu>a>div{
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size:18px;
 }
 #nav-menu > a > div:hover {
-  color: rgb(43, 183, 238);
+  color: darkcyan;
 }
 #resume-button-1{
-  appearance: none;
-  background-color:green;
+  background-color:darkcyan;
   border: 1px solid rgba(27, 31, 35, .15);
   border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
@@ -35,13 +31,48 @@
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
-  padding: 8px 20px;
+  padding: 6px 15px;
   position: relative;
   text-align: center;
   text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
+}
+#resume-button-2{
+  background-color:darkcyan;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 15px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+
+
+
+
+#home{
+  border: 3px solid hotpink;
+}
+#about{
+  border: 3px solid darkorange;
+}
+#skills{
+  border: 3px solid darkblue;
+  height: 200px;
+}
+#projects{
+  border: 3px solid yellowgreen;
 }
