@@ -1,263 +1,229 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" dir="ltr">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./images/fevicon.png" />
-    <title>Yogesh Sathe | Full Stack Developer</title>
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-    </script>
-    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="./images/user.png" />
+  <title>Yogesh Sathe | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#home" id="logo">YOGESH</a>
-            <i class="fas fa-bars" id="ham-menu"></i>
-            <ul id="nav-bar">
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#project">Projects</a>
-                </li>
-                <li>
-                    <a href="#github">Github</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a href="#"> Download Resume </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <div class="space"></div>
-        <h1>Hello, I am Yogesh Sathe</h1>
-        <div class="container">
-            <h2 class="title">
-                <span class="title-word title-word-1">Front</span>
-                <span class="title-word title-word-2">End</span>
-                <span class="title-word title-word-3">Web</span>
-                <span class="title-word title-word-4">Developer</span>
-            </h2>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">YOGESH</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Projects</a></li>
+        <li><a href="#services">Github</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
         </div>
-        <p>Passionate and creative Full Stack Developer having proficiency in MERN Stack. Attired with a variety of
-            tools & technologies and keen to learn new one.</p>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
 
-        <div class="social">
-            <img src="images/github.png" alt="">
-            <img src="images/email.png" alt="">
-            <img src="images/call.png" alt="">
-            <img src="images/linkedin.png" alt="">
-            <img src="images/twitter.png" alt="">
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Yogesh Sathe</div>
+        <div class="text-three">Web Developer</div>
+        <div class="text-four">From Ahmednagar, Maharashtra</div>
+      </div>
+      <div class="button">
+        <button>Resume</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="Images/about.png" alt="" />
         </div>
-
-        <div id="resume">
-            <button class="button">Resume</button>
+        <div class="right">
+          <div class="topic">Skilled Web Developer</div>
+          <p>
+            Hi there, and welcome to my portfolio! My name is Yogesh, and I am a web developer with a passion for
+            creating stunning and user-friendly websites. I specialize in building custom websites and web applications
+            that help businesses and individuals achieve their online goals.
+            My expertise includes a range of programming languages, including HTML, CSS, JavaScript and more.
+            Additionally, I am proficient in modern frameworks and tools like React js, Material UI and Bootstrap.
+            Another strength of mine is my ability to work collaboratively with clients and team members.
+          </p>
+          <div class="button">
+            <button>Download CV</button>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section id="about">
-        <div class="space"></div>
-        <h1 class="heading">ABOUT ME</h1>
-        <div id="intro">
-            <img id="profile" src="images/profile.png" alt="">
-            <p>
-                Hi Everyone, My name is Yogesh Sathe and I am from Ahmednagar, Maharashtra (India). I have completed my
-                HSC from Matoshri B.B. Science jounior college(MH). Then I joined full stack development course by Masai
-                School a military type coding school.</p>
+  <!-- My Skill Section Start -->
+  <!-- Section Tag and Other Div will same where we need to put same CSS -->
+  <section class="skills" id="skills">
+    <div class="title"><span>My Skills</span></div>
+    <div class="skills-parent">
+      <div class="skill">
+        <img src="images/html.png" alt="">
+        <h4>HTML</h4>
+      </div>
+      <div class="skill">
+        <img src="images/css.png" alt="">
+        <h4>CSS</h4>
+      </div>
+      <div class="skill">
+        <img src="images/javascript.png" alt="">
+        <h4>Javascript</h4>
+      </div>
+      <div class="skill">
+        <img src="images/react.png" alt="">
+        <h4>React JS</h4>
+      </div>
+      <div class="skill">
+        <img src="images/redux.png" alt="">
+        <h4>Redux</h4>
+      </div>
+      <div class="skill">
+        <img src="images/bootstrap.png" alt="">
+        <h4>Bootstrap</h4>
+      </div>
+      <div class="skill">
+        <img src="images/github.png" alt="">
+        <h4>Github</h4>
+      </div>
+      <div class="skill">
+        <img src="images/git.png" alt="">
+        <h4>Git</h4>
+      </div>
+      <div class="skill">
+        <img src="images/vscode.png" alt="">
+        <h4>VS Code</h4>
+      </div>
+      <div class="skill">
+        <img src="images/netlify.png" alt="">
+        <h4>Netlify</h4>
+      </div>
+      <div class="skill">
+        <img src="images/mui.png" alt="">
+        <h4>Material UI</h4>
+      </div>
+      <div class="skill">
+        <img src="images/notion.png" alt="">
+        <h4>Notion</h4>
+      </div>
+      <div class="skill">
+        <img src="images/slack.png" alt="">
+        <h4>Slack</h4>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <!-- My Services Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Projects</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic">Web Devlopment</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+            eligendi?</p>
         </div>
-        <h1 class="heading">EDUCATION</h1>
-        <div id="edu">
-            <div class="edu-card">
-                <h2>Bachelor's of computer science</h2>
-                <h3>Shri Baneshwar Art's, Commerce & Science College, Burhannagar.</h3>
-                <h4>Completed in April 2019 with first class</h4>
-
-            </div>
-            <div class="edu-card">
-                <h2>Bachelor's of computer science</h2>
-                <h3>Shri Baneshwar Art's, Commerce & Science College, Burhannagar.</h3>
-                <h4>Completed in April 2019 with first class</h4>
-
-            </div>
-            <div class="edu-card">
-                <h2>Bachelor's of computer science</h2>
-                <h3>Shri Baneshwar Art's, Commerce & Science College, Burhannagar.</h3>
-                <h4>Completed in April 2019 with first class</h4>
-
-            </div>
-            <div class="edu-card">
-                <h2>Bachelor's of computer science</h2>
-                <h3>Shri Baneshwar Art's, Commerce & Science College, Burhannagar.</h3>
-                <h4>Completed in April 2019 with first class</h4>
-
-            </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <div class="topic">Graphic Design</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+            eligendi?</p>
         </div>
-    </section>
-
-    <section id="skills">
-        <div class="space"></div>
-        <h1 class="heading">SKILLS & TOOLS</h1>
-        <div id="skill-card">
-            <div class="skill">
-                <img src="images/html.png" alt="">
-                <h4>HTML</h4>
-            </div>
-            <div class="skill">
-                <img src="images/css.png" alt="">
-                <h4>CSS</h4>
-            </div>
-            <div class="skill">
-                <img src="images/javascript.png" alt="">
-                <h4>Javascript</h4>
-            </div>
-            <div class="skill">
-                <img src="images/react.png" alt="">
-                <h4>React JS</h4>
-            </div>
-            <div class="skill">
-                <img src="images/redux.png" alt="">
-                <h4>Redux</h4>
-            </div>
-            <div class="skill">
-                <img src="images/bootstrap.png" alt="">
-                <h4>Bootstrap</h4>
-            </div>
-            <div class="skill">
-                <img src="images/github.png" alt="">
-                <h4>Github</h4>
-            </div>
-            <div class="skill">
-                <img src="images/git.png" alt="">
-                <h4>Git</h4>
-            </div>
-            <div class="skill">
-                <img src="images/vscode.png" alt="">
-                <h4>VS Code</h4>
-            </div>
-            <div class="skill">
-                <img src="images/netlify.png" alt="">
-                <h4>Netlify</h4>
-            </div>
-            <div class="skill">
-                <img src="images/chakra.png" alt="">
-                <h4>Chakra UI</h4>
-            </div>
-            <div class="skill">
-                <img src="images/notion.png" alt="">
-                <h4>Notion</h4>
-            </div>
-            <div class="skill">
-                <img src="images/slack.png" alt="">
-                <h4>Slack</h4>
-            </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="topic">Digital Marketing</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+            eligendi?</p>
         </div>
-    </section>
-
-    <section id="project">
-        <div class="space"></div>
-        <h1 class="heading">PROJECTS</h1>
-        <div id="projects">
-            <div class="pro">
-                <img src="images/firstcry.png" alt="project 1">
-                <h2>First Cry </h2>
-                <p>First cry is a consumer electronics retailer with operations in the U.S., Mexico, and Canada. Company
-                    sells a wide variety of items.</p>
-                <p>Tech Stack - HTML | CSS | Javascript</p>
-                <button class="btn-1">Go Live</button>
-                <button class="btn-2">View Code</button>
-            </div>
-            <div class="pro">
-                <img src="images/firstcry.png" alt="project 1">
-                <h2>First Cry </h2>
-                <p>First cry is a consumer electronics retailer with operations in the U.S., Mexico, and Canada. Company
-                    sells a wide variety of items.</p>
-                <p>Tech Stack - HTML | CSS | Javascript</p>
-                <button class="btn-1">Go Live</button>
-                <button class="btn-2">View Code</button>
-            </div>
-            <div class="pro">
-                <img src="images/firstcry.png" alt="project 1">
-                <h2>First Cry </h2>
-                <p>First cry is a consumer electronics retailer with operations in the U.S., Mexico, and Canada. Company
-                    sells a wide variety of items.</p>
-                <p>Tech Stack - HTML | CSS | Javascript</p>
-                <button class="btn-1">Go Live</button>
-                <button class="btn-2">View Code</button>
-            </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fab fa-android"></i>
+          </div>
+          <div class="topic">Icon Design</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+            eligendi?</p>
         </div>
-
-
-    </section>
-
-
-    <section id="github">
-        <div class="space"></div>
-        <h1 class="heading">GITHUB</h1>
-        <div class="calendar" id="cal">
-            <!-- Loading stuff -->
-            Loading the data just for you.
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-camera-retro"></i>
+          </div>
+          <div class="topic">Photography</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+            eligendi?</p>
         </div>
-
-        <div class="git">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ysathe991&layout=compact" alt=""  style="width: 40%;"/>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <div class="topic">Apps Devlopment</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+            eligendi?</p>
         </div>
-        <div class="git">
-            <img src="https://github-readme-stats.vercel.app/api?username=ysathe991&show_icons=true&theme=white" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
         </div>
-        <div class="git">
-            <img src="https://github-readme-streak-stats.herokuapp.com?user=ysathe991" alt="" />
-        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">Yogesh Sathe</a> | &#169; 2023 All Rights Reserved</span>
+    </div>
+  </footer>
 
-    </section>
-
-    <section id="contact">
-        <h1 class="heading">CONTACT</h1>
-        <div id="cont">
-            <div class="con">
-                <img src="images/email.png" alt="">
-                <h4>ysathe991@gmail.com</h4>
-            </div>
-            <div class="con">
-                <img src="images/call.png" alt="">
-                <h4> 9049101160</h4>
-            </div>
-            <div class="con">
-                <img src="images/github.png" alt="">
-                <h4>Github</h4>
-            </div>
-            <div class="con">
-                <img src="images/linkedin.png" alt="">
-                <h4>Linkedin</h4>
-            </div>
-        </div>
-
-    </section>
-
-    <footer id="footer">
-        <h1 class="heading">Made With ❤️ By Yogesh</h1>
-    </footer>
-    <!-- Script -->
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
