@@ -260,6 +260,9 @@ section .title span::after {
 .about-details .right {
   width: 55%;
 }
+#skills{
+  padding-top: 100px;
+}
 .skill img {
   width: 50%;
 }
@@ -324,6 +327,9 @@ section .button button:hover {
   margin: auto;
   width: 30%;
   padding: 20px 0px 0px 0px;
+}
+#github{
+  padding-top: 100px;
 }
 /* My Services CSS */
 .services .boxes {
