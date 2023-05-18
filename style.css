@@ -95,7 +95,7 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn {
-  color: darkblue;
+  color: white;
 }
 nav.sticky .menu-btn {
   color: #fff;
@@ -295,7 +295,7 @@ section .button button:hover {
 #git img{
   margin: auto;
   width: 30%;
-  padding-bottom: 10px;
+  padding: 20px 0px 0px 0px;
 }
 /* My Services CSS */
 .services .boxes {
@@ -359,6 +359,7 @@ section .button button:hover {
 /* Footer CSS */
 footer {
   background: darkblue;
+  margin-top: 10px;
   padding: 15px 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -408,6 +409,7 @@ footer .text span a:hover {
     width: 30%;
     padding-bottom: 10px;
   }
+
 }
 @media (max-width: 1000px) {
   .about .about-details {
@@ -439,6 +441,7 @@ footer .text span a:hover {
     width: 50%;
     padding-bottom: 10px;
   }
+  
 }
 @media (max-width: 900px) {
   .about .left img {
@@ -457,6 +460,7 @@ footer .text span a:hover {
     width: 60%;
     padding-bottom: 10px;
   }
+ 
 }
 
 @media (max-width: 750px) {
@@ -534,6 +538,7 @@ footer .text span a:hover {
     width: 80%;
     padding-bottom: 10px;
   }
+ 
 }
 
 @media (max-width: 500px) {
@@ -559,4 +564,5 @@ footer .text span a:hover {
     width: 90%;
     padding-bottom: 10px;
   }
+ 
 }

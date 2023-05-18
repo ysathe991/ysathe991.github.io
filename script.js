@@ -43,3 +43,17 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
+
+// github activity calendar
+
+GitHubCalendar(".calendar", "ysathe991");
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "ysathe991", { responsive: true });
+
+// Use a proxy
+GitHubCalendar(".calendar", "ysathe991", {
+  proxy(username) {
+    return fetch(`https://your-proxy.com/github?user=${username}`)
+  }
+})
