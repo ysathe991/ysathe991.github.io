@@ -294,8 +294,8 @@ section .button button:hover {
 }
 #git img{
   margin: auto;
-  width: 80%;
-  padding: 10px;
+  width: 30%;
+  padding-bottom: 10px;
 }
 /* My Services CSS */
 .services .boxes {
@@ -403,6 +403,11 @@ footer .text span a:hover {
     margin: auto;
     gap: 40px;
   }
+  #git img{
+    margin: auto;
+    width: 30%;
+    padding-bottom: 10px;
+  }
 }
 @media (max-width: 1000px) {
   .about .about-details {
@@ -429,6 +434,11 @@ footer .text span a:hover {
     margin: auto;
     gap: 40px;
   }
+  #git img{
+    margin: auto;
+    width: 50%;
+    padding-bottom: 10px;
+  }
 }
 @media (max-width: 900px) {
   .about .left img {
@@ -441,6 +451,11 @@ footer .text span a:hover {
     width: 70%;
     margin: auto;
     gap: 50px;
+  }
+  #git img{
+    margin: auto;
+    width: 60%;
+    padding-bottom: 10px;
   }
 }
 
@@ -514,6 +529,11 @@ footer .text span a:hover {
     margin: auto;
     gap: 40px;
   }
+  #git img{
+    margin: auto;
+    width: 80%;
+    padding-bottom: 10px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -533,5 +553,10 @@ footer .text span a:hover {
     width: 60%;
     margin: auto;
     gap: 40px;
+  }
+  #git img{
+    margin: auto;
+    width: 90%;
+    padding-bottom: 10px;
   }
 }
