@@ -345,6 +345,8 @@ section .button button:hover {
 /* Contact Me CSS */
 .contact {
   background: #f0f8ff;
+  margin-top: 20px;
+
 }
 .contact .content {
   margin: 0 auto;
@@ -355,11 +357,14 @@ section .button button:hover {
   text-align: center;
   margin: auto;
 }
-
+#cal{
+  width: 70%;
+  border: 1px solid lightgray;
+  
+}
 /* Footer CSS */
 footer {
   background: darkblue;
-  margin-top: 10px;
   padding: 15px 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -410,6 +415,9 @@ footer .text span a:hover {
     padding-bottom: 10px;
   }
 
+  #cal{
+    width: 80%;
+  }
 }
 @media (max-width: 1000px) {
   .about .about-details {
@@ -442,6 +450,9 @@ footer .text span a:hover {
     padding-bottom: 10px;
   }
   
+  #cal{
+    width: 90%;
+  }
 }
 @media (max-width: 900px) {
   .about .left img {
@@ -461,6 +472,9 @@ footer .text span a:hover {
     padding-bottom: 10px;
   }
  
+  #cal{
+    width: 90%;
+  }
 }
 
 @media (max-width: 750px) {
@@ -539,6 +553,9 @@ footer .text span a:hover {
     padding-bottom: 10px;
   }
  
+  #cal{
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
@@ -565,4 +582,7 @@ footer .text span a:hover {
     padding-bottom: 10px;
   }
  
+  #cal{
+    display: none;
+  }
 }
