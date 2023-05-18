@@ -294,6 +294,7 @@ section .button button:hover {
 }
 #git img{
   margin: auto;
+  width: 80%;
   padding: 10px;
 }
 /* My Services CSS */
