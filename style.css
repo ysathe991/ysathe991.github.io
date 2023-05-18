@@ -392,16 +392,21 @@ footer .text span a {
 footer .text span a:hover {
   text-decoration: underline;
 }
+.con{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 .social {
   display: flex;
   justify-content: center;
   margin-top: 40px;
 }
-.social > div img {
-  height: 45px;
-  margin: 20px;
+.social > a img {
+  height: 40px;
+  margin: 15px;
 }
-.social > div:hover {
+.social > a:hover {
   cursor: pointer;
 }
 /* Scroll TO Top Button CSS */
@@ -595,16 +600,12 @@ footer .text span a:hover {
   .home .text-three {
     font-size: 33px;
   }
-  .skills-details .boxes .per {
-    font-size: 50px;
-    color: darkblue;
-  }
+
   .skills-parent {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 60%;
+    width: 70%;
     margin: auto;
-    gap: 40px;
   }
   #git img {
     margin: auto;
