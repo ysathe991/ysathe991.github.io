@@ -57,3 +57,4 @@ GitHubCalendar(".calendar", "ysathe991", {
     return fetch(`https://your-proxy.com/github?user=${ysathe991}`)
   }
 })
+
