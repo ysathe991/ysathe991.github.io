@@ -108,7 +108,7 @@ nav.sticky .menu-btn {
 .home {
   height: 100vh;
   width: 100%;
-  background: url("Images/background.jpg") no-repeat;
+  background: url("./Images/background.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -224,13 +224,9 @@ section .title span::after {
   object-fit: cover;
   border-radius: 50%;
 }
-.left img {
-  opacity: 1;
-  transition: 1s ease;
-}
+
 .left img:hover {
-  opacity: 0.5;
-  transition: 1s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .about-details .right {
@@ -384,7 +380,9 @@ footer .text span a:hover {
   box-shadow: rgba(0, 0, 0, 0.15);
   display: none;
 }
-
+.box img{
+  width: 100%;
+}
 /* Responsive Media Query */
 @media (max-width: 1190px) {
   section .content {
