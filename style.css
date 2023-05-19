@@ -278,8 +278,8 @@ section .title span::after {
 .skill {
   text-align: center;
   margin: 20px;
-  border: 1px solid black;
-  border-radius: 8px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
   padding: 10px;
 }
 
@@ -316,11 +316,9 @@ section .button button:hover {
 
 /* My Skills CSS */
 .skills {
-  background: #f0f8ff;
+  background: #f0f8fff6;
 }
-.skills .content {
-  padding: 40px 0;
-}
+
 #git {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -345,9 +343,9 @@ section .button button:hover {
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
-  border-radius: 12px;
-  padding: 30px 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  padding: 5px;
+  border: 1px solid lightgray;
   cursor: default;
   transition: all 0.4s ease;
 }
@@ -614,7 +612,7 @@ footer .text span a:hover {
   .skills-parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 70%;
+    width: 100%;
     margin: auto;
   }
   #git img {
