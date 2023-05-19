@@ -344,7 +344,7 @@ section .button button:hover {
   width: calc(100% / 3 - 20px);
   text-align: center;
   border-radius: 6px;
-  padding: 5px;
+  padding: 5px 0px 30px 0px;
   border: 1px solid lightgray;
   cursor: default;
   transition: all 0.4s ease;
@@ -562,20 +562,7 @@ footer .text span a:hover {
   .home .text-three {
     font-size: 35px;
   }
-  .skills .skills-details {
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .skills-details .text {
-    width: 100%;
-    margin-bottom: 50px;
-  }
-  .skills-details .boxes {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
+ 
   .services .boxes .box {
     margin: 20px 0;
     width: 100%;
