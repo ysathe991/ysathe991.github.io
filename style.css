@@ -262,6 +262,8 @@ section .title span::after {
 }
 #skills{
   padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+
 }
 .skill img {
   width: 50%;
@@ -330,6 +332,8 @@ section .button button:hover {
 }
 #github{
   padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+
 }
 /* My Services CSS */
 .services .boxes {
@@ -381,7 +385,7 @@ section .button button:hover {
 }
 /* Footer CSS */
 footer {
-  background: black;
+  background: darkblue;
   padding: 15px 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
