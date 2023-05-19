@@ -178,7 +178,7 @@ nav.sticky .menu-btn {
   border-radius: 8px;
   border: 1px solid orange;
   background-color: orange;
-  color: white;
+  color: green;
   font-weight: bold;
   cursor: pointer;
 }
@@ -433,7 +433,13 @@ footer .text span a:hover {
 .box img {
   width: 100%;
 }
-
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: green;
+}
 @media (min-width: 768px) {
   .button-52 {
     padding: 13px 50px 13px;
@@ -587,6 +593,7 @@ footer .text span a:hover {
     display: none;
   }
 }
+
 
 @media (max-width: 500px) {
   .home .text-two {
