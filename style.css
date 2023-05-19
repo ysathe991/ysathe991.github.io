@@ -497,8 +497,8 @@ footer .text span a:hover {
 }
 @media (max-width: 900px) {
   .about .left img {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
   }
   .skills-parent {
     display: grid;
@@ -609,7 +609,7 @@ footer .text span a:hover {
 
   .skills-parent {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 70%;
     margin: auto;
   }
