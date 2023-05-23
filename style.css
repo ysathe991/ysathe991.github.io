@@ -7,7 +7,9 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
-
+/* img:hover{
+  filter: brightness(0.4);
+} */
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
   width: 10px;
