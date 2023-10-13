@@ -18,12 +18,12 @@
   background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #0a4a6fd2;
+  background: #022f49d2;
   transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0a4a6fd2;
+  background: #022f49d2;
 }
 /* navbar styling */
 nav {
@@ -35,7 +35,7 @@ nav {
   font-family: "Ubuntu", sans-serif;
 }
 nav.sticky {
-  background: #0a4a6fd2;
+  background: #022f49d2;
   padding: 13px 0;
 }
 nav .navbar {
@@ -162,7 +162,7 @@ nav.sticky .menu-btn {
 .home .button button:hover {
   border-color: 0a4a6fd2;
   background-color: #fff;
-  color: #0a4a6fd2;
+  color: #022f49d2;
 }
 .btn-0 {
   padding: 10px 15px;
@@ -222,7 +222,7 @@ section .title span {
 }
 .title {
   text-align: center;
-  color: #0a4a6fd2;
+  color: #022f49d2;
   font-size: 30px;
   font-weight: 600;
   position: relative;
@@ -234,7 +234,7 @@ section .title span::after {
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #0a4a6fd2;
+  background: #022f49d2;
   left: 0;
   bottom: 0;
 }
@@ -286,14 +286,14 @@ section .title span::after {
 }
 
 section .topic {
-  color: #0a4a6fd2;
+  color: #022f49d2;
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 10px;
 }
 .about-details .right p {
   text-align: justify;
-  color: #0a4a6fd2;
+  color: #022f49d2;
 }
 section .button {
   margin: 16px 0;
@@ -304,16 +304,16 @@ section .button button {
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
-  background: #0a4a6fd2;
+  background: #022f49d2;
   color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 section .button button:hover {
-  border-color: #0a4a6fd2;
+  border-color: #022f49d2;
   background-color: #fff;
-  color: #0a4a6fd2;
+  color: #022f49d2;
 }
 
 /* My Skills CSS */
@@ -352,7 +352,7 @@ section .button button:hover {
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover {
-  border: 1px solid #0a4a6fd2;
+  border: 1px solid #022f49d2;
   color: black;
 }
 
@@ -385,7 +385,7 @@ section .button button:hover {
 }
 /* Footer CSS */
 footer {
-  background: #0a4a6fd2;
+  background: #022f49d2;
   padding: 15px 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -425,7 +425,7 @@ footer .text span a:hover {
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #0a4a6fd2;
+  background: #022f49d2;
   padding: 7px 12px;
   font-size: 18px;
   border-radius: 6px;
@@ -536,7 +536,7 @@ a:hover{
     position: fixed;
     left: -100%;
     top: 0;
-    background: #0a4a6fd2;
+    background: #022f49d2;
     height: 100vh;
     max-width: 400px;
     width: 100%;
@@ -555,7 +555,7 @@ a:hover{
     margin: 10px 0;
   }
   nav.sticky .menu a:hover {
-    color: #0a4a6fd2;
+    color: #022f49d2;
   }
   nav .navbar .media-icons {
     display: none;
