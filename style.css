@@ -440,7 +440,7 @@ a{
   color: white;
 }
 a:hover{
-  color: green;
+  color: darkblue;
 }
 @media (min-width: 768px) {
   .button-52 {
