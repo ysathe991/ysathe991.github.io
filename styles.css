@@ -414,7 +414,9 @@ img {
   margin-top: 5px;
 }
 .skill img {
-  width: 100%;
+  margin: auto;
+  height: 60px;
+  width: 60px;
 }
 h1{
   text-align: center;
