@@ -141,7 +141,6 @@ header .btnMenu {
 .rotating-text-wrapper h2 {
   font-size: 2em;
   margin: 0;
-  padding: 0.5em 1.5em;
   color: #fff;
   animation-duration: 9s;
   animation-iteration-count: infinite;
@@ -639,6 +638,23 @@ h1 {
 @media (max-width: 500px) {
   .map {
     max-width: 280px;
+  }
+}
+@media (max-width: 342px) {
+  #home{
+    margin-top: 10vh;
+  }
+  .home-details img{
+    height: 220px;
+  }
+  .home-details h1{
+    font-size: 25px;
+  }
+  .icons{
+    margin-top: 15px;
+  }
+  .rotating-text-wrapper{
+    font-size: 12px;
   }
 }
 /* width */
