@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 115px;
+  padding: 25px 115px;
   z-index: 999;
   transition: 2s;
   background: white;
@@ -111,7 +111,7 @@ header .btnMenu {
   border-radius: 10px;
   width: 86%;
   margin-left: 7%;
-  height: 82vh;
+  height: 80vh;
   display: flex;
   justify-content: space-between;
   /* border: 2px solid red; */
@@ -280,7 +280,7 @@ header .btnMenu {
 #about {
   background-color: #bad0e92a;
   width: 86%;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   flex-direction: row;
   margin-left: 7%;
