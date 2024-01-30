@@ -26,7 +26,7 @@ header.sticky {
 
 header .brand {
   font-size: 20px;
-  color: #0a66c2;
+  color: blue;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -52,13 +52,13 @@ header .menu a {
 }
 
 header .menu a:hover {
-  color: #0a66c2;
+  color: blue;
 }
 
 header .btnMenu {
   font-size: 25px;
   cursor: pointer;
-  color: #0a66c2;
+  color: blue;
   display: none;
 }
 
@@ -148,7 +148,7 @@ header .btnMenu {
 }
 .rotating-text-wrapper h2:nth-child(1) {
   border-radius: 10px;
-  color: lightseagreen;
+  color: red;
   animation-name: rotating-text-1;
 }
 @keyframes rotating-text-1 {
@@ -164,7 +164,7 @@ header .btnMenu {
   }
 }
 .rotating-text-wrapper h2:nth-child(2) {
-  color: tomato;
+  color: orange;
   border-radius: 10px;
   animation-name: rotating-text-2;
 }
@@ -182,7 +182,7 @@ header .btnMenu {
   }
 }
 .rotating-text-wrapper h2:nth-child(3) {
-  color: cornflowerblue;
+  color: green;
   animation-name: rotating-text-3;
   border-radius: 10px;
 }
@@ -227,7 +227,7 @@ header .btnMenu {
 /* CSS */
 .button-18 {
   align-items: center;
-  background-color: #0a66c2;
+  background-color: blue;
   border: 0;
   border-radius: 100px;
   box-sizing: border-box;
@@ -279,7 +279,7 @@ header .btnMenu {
 #about {
   background-color: #bad0e92a;
   width: 86%;
-  height: 90vh;
+  height: 85vh;
   display: flex;
   flex-direction: row;
   margin-left: 7%;
@@ -287,6 +287,7 @@ header .btnMenu {
   margin-bottom: 5vh;
   border-radius: 10px;
   justify-content: space-around;
+  
 }
 .about-details {
   display: flex;
@@ -305,7 +306,7 @@ header .btnMenu {
   align-items: center;
 }
 .skills-main {
-  background-color: #fbfbefa5;
+  background-color: cornsilk;
   display: flex;
   justify-content: space-evenly;
   width: 86%;
@@ -339,6 +340,7 @@ header .btnMenu {
   border-radius: 5px;
   padding: 10px;
 }
+
 .skill p {
   margin-top: 5px;
 }
@@ -471,10 +473,10 @@ h1 {
 }
 
 .social-icons a:hover {
-  color: #007bff;
+  color: blue;
 }
 .footer-copyright {
-  background-color: #0a66c2;
+  background-color: blue;
   color: #ffffff;
   padding: 15px;
   text-transform: capitalize;
@@ -664,17 +666,18 @@ h1 {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: white;
+  background:whitesmoke
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0a66c2;
+  background: blue;
+  border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: hotpink;
+  background: rgb(37, 37, 221);
 }
 .top {
   position: fixed;
@@ -682,7 +685,7 @@ h1 {
   margin-left: 95%;
   height: 50px;
   width: 50px;
-  background-color: #007bff;
+  background-color: blue;
   border-radius: 50%;
   text-align: center;
   font-size: 20px;
@@ -691,7 +694,7 @@ h1 {
   cursor: pointer;
 }
 .top:hover {
-  background-color: hotpink;
+  cursor: pointer;
 }
 @media (max-width: 1000px) {
   .top {
