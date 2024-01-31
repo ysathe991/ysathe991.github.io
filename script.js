@@ -16,3 +16,8 @@ menuBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   menu.classList.remove('active');
 });
+
+function nevigate() {
+    menu.classList.remove('active');
+
+}
