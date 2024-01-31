@@ -329,11 +329,11 @@ header .btnMenu {
 .skill-set {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  gap: 5px;
+  gap: 15px;
 }
 .skill {
-  width: 120px;
-  border: 1px solid rgba(128, 128, 128, 0.292);
+  width: 110px;
+  border: 1px solid grey;
   text-align: center;
   align-items: center;
   font-size: 18px;
@@ -346,8 +346,8 @@ header .btnMenu {
 }
 .skill img {
   margin: auto;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
 }
 h1 {
   text-align: center;
