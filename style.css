@@ -367,10 +367,11 @@ h1 {
   gap: 10px;
   max-width: 300px;
   margin: 20px auto;
-  border: 1px solid #ddd;
+  border: 1px solid rgba(131, 126, 126, 0.495);
   border-radius: 8px;
   overflow: hidden;
 }
+
 
 .product-card img {
   width: 100%;
