@@ -18,6 +18,6 @@ closeBtn.addEventListener("click", () => {
 });
 
 function nevigate() {
-    menu.classList.remove('active');
+  menu.classList.remove('active');
 
 }
