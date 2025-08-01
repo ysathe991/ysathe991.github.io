@@ -1,293 +1,375 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <title>Yogesh Sathe | Full Stack Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/16a517db84.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-  <title>Yogesh Sathe | Full Stack Web Developer </title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/16a517db84.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-</head>
-
-<body>
-  <a href="#">
-    <button class="top">
-      Top
-    </button>
-  </a>
-  <header>
-    <a href="" class="brand" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">yogesh</a>
-    <div class="menu">
+  <body>
+    <a href="#">
+      <button class="top">Top</button>
+    </a>
+    <header>
+      <a
+        href=""
+        class="brand"
+        style="
+          font-family: &quot;Franklin Gothic Medium&quot;,
+            &quot;Arial Narrow&quot;, Arial, sans-serif;
+        "
+        >yogesh</a
+      >
+      <div class="menu">
+        <div class="btnMenu">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="#" onclick="nevigate()">Home</a>
+        <a href="#about" onclick="nevigate()">About</a>
+        <a href="#skills" onclick="nevigate()">Skills</a>
+        <a href="#projects" onclick="nevigate()">Projects</a>
+        <a href="#contact" onclick="nevigate()">Contact</a>
+      </div>
       <div class="btnMenu">
-        <i class="fas fa-times close-btn"></i>
+        <i class="fas fa-bars menu-btn1"></i>
       </div>
-      <a href="#" onclick="nevigate()">Home</a>
-      <a href="#about" onclick="nevigate()">About</a>
-      <a href="#skills" onclick="nevigate()">Skills</a>
-      <a href="#projects" onclick="nevigate()">Projects</a>
-      <a href="#contact" onclick="nevigate()">Contact</a>
-    </div>
-    <div class="btnMenu">
-      <i class="fas fa-bars menu-btn1"></i>
-    </div>
-  </header>
+    </header>
 
-
-  <div id="home">
-    <div class="home-details">
-      <h1>Hello 👋 I am Yogesh</h1>
-      <div class="rotating-text-wrapper">
-        <h2>Front End Developer</h2>
-        <h2>Back End Developer</h2>
-        <h2>Full Stack Developer</h2>
+    <div id="home">
+      <div class="home-details">
+        <h1>Hello 👋 I am Yogesh</h1>
+        <div class="rotating-text-wrapper">
+          <h2>Front End Developer</h2>
+          <h2>Back End Developer</h2>
+          <h2>Full Stack Developer</h2>
+        </div>
+        <div class="icons">
+          <i class="fa-brands fa-linkedin linkedin"></i>
+          <i class="fa-brands fa-github github"></i>
+          <i class="fa-brands fa-twitter twitter"></i>
+        </div>
+        <button class="button-18" role="button">Get Resume</button>
       </div>
-      <div class="icons">
-        <i class="fa-brands fa-linkedin linkedin"></i>
-        <i class="fa-brands fa-github github"></i>
-        <i class="fa-brands fa-twitter twitter"></i>
-      </div>
-      <button class="button-18" role="button">Get Resume</button>
-
-    </div>
-    <div class="home-details">
-      <img src="images/programmer.svg" alt="">
-    </div>
-
-  </div>
-
-
-  <div id="about">
-    <div class="about-details">
-      <img src="/images/profile-photo.png" alt="">
-    </div>
-    <div class="about-details">
-      <h1>About Me</h1>
-      <p>
-        Hi Everyone, I am Yogesh Sathe from Ahmednagar, India.
-
-        <br><br>
-        I am an innovative and dedicated hardworking full stack developer with hands-on experience in developing web
-        applications with MERN stack.
-        <br>
-        <br>
-        I have passion for developing scalable web application and working across the full stack.
-        <br>
-        <br>
-        I spend most days learning and building up, either start it from scratch and adding some customized features
-        and
-        functionality.
-      </p>
-    </div>
-  </div>
-
-
-
-  <h1>Technical Skills and Tools</h1>
-  <div class="skills-main" id="skills">
-    <div class="skills">
-      <div class="skill-set">
-        <div class="skill">
-          <img src="images/html.png" alt="" />
-          <p>HTML5</p>
-        </div>
-        <div class="skill">
-          <img src="images/css.png" alt="" />
-          <p>CSS3</p>
-        </div>
-        <div class="skill">
-          <img src="images/tailwind.png" alt="" height="10px" />
-          <p>Tailwind css</p>
-        </div>
-        <div class="skill">
-          <img src="images/javascript.png" alt="" />
-          <p>JavaScript</p>
-        </div>
-
-        <div class="skill">
-          <img src="images/es6.png" alt="" />
-          <p>ES6 +</p>
-        </div>
-
-        <div class="skill">
-          <img src="images/json.png" alt="" />
-          <p>JSON</p>
-        </div>
-        <div class="skill">
-          <img src="images/typescript.png" alt="" />
-          <p>Typescript</p>
-        </div>
-        <div class="skill">
-          <img src="images/react.png" alt="" />
-          <p>React JS</p>
-        </div>
-        <div class="skill">
-          <img src="images/redux.png" alt="" />
-          <p>Redux JS</p>
-        </div>
-        <div class="skill">
-          <img src="images/node.png" alt="" />
-          <p>Node JS</p>
-        </div>
-        <div class="skill">
-          <img src="images/express.png" alt="" />
-          <p>Express JS</p>
-        </div>
-        <div class="skill">
-          <img src="images/mongodb.png" alt="" />
-          <p>Mongo DB</p>
-        </div>
-        <div class="skill">
-          <img src="images/git.png" alt="" />
-          <p>Git</p>
-        </div>
-        <div class="skill">
-          <img src="images/github.png" alt="" />
-          <p>GitHub</p>
-        </div>
-        <!-- 
-        <div class="skill">
-          <img src="images/postman.png" alt="" />
-          <p>Postman</p>
-        </div>
-        <div class="skill">
-          <img src="images/npm.png" alt="" />
-          <p>NPM</p>
-        </div>
-        <div class="skill">
-          <img src="images/vscode.png" alt="" />
-          <p>VS Code</p>
-        </div>
-        <div class="skill">
-          <img src="images/chatgpt.png" alt="" />
-          <p>Chat GPT</p>
-        </div>
-        <div class="skill">
-          <img src="images/netlify.png" alt="" />
-          <p>Netlify</p>
-        </div>
-        <div class="skill">
-          <img src="images/notion.png" alt="" />
-          <p>Notion</p>
-        </div>
-        <div class="skill">
-          <img src="images/slack.png" alt="" />
-          <p>Slack</p>
-        </div> -->
+      <div class="home-details">
+        <img src="images/programmer.svg" alt="" />
       </div>
     </div>
-  </div>
 
-  <h1>Projects</h1>
-  <div id="projects">
-    <div class="product-card">
-      <img src="images/weather-app.png" alt="Product Image">
-      <div class="product-details">
-        <div class="product-name">Weather App</div>
-        <div class="product-description">A weather application to get the temperature weather condition and whether it
-          is day or night of a particular city
-          using accuweather .
-        </div>
-        <div class="project-tech">
-          <img src="images/html.png" style="height:35px; width: 35px;" alt="">
-          <img src="images/css.png" style="height:35px; width: 35px;" alt="">
-          <img src="images/javascript.png" style="height:35px; width: 35px;" alt="">
-        </div>
-        <div class="product-buttons">
-          <a href="https://calm-pasca-14f00c.netlify.app/" target="_blank">
-            <button class="button">Live Demo</button>
-          </a>
-          <a href="https://github.com/ysathe991/Weather-App" target="_blank">
-            <button class="button1">Code</button>
-          </a>
+    <div id="about">
+      <div class="about-details">
+        <img src="/images/profile-photo.png" alt="" />
+      </div>
+      <div class="about-details">
+        <h1>About Me</h1>
+        <p>
+          Hi Everyone, I am Yogesh Sathe from Ahmednagar, India.
+
+          <br /><br />
+          I am an innovative and dedicated hardworking full stack developer with
+          hands-on experience in developing web applications with MERN stack.
+          <br />
+          <br />
+          I have passion for developing scalable web application and working
+          across the full stack.
+          <br />
+          <br />
+          I spend most days learning and building up, either start it from
+          scratch and adding some customized features and functionality.
+        </p>
+      </div>
+    </div>
+
+    <h1>Front End</h1>
+    <div class="skills-main" id="skills">
+      <div class="skills">
+        <div class="skill-set">
+          <div class="skill">
+            <img src="images/html.png" alt="" />
+            <p>HTML5</p>
+          </div>
+          <div class="skill">
+            <img src="images/css.png" alt="" />
+            <p>CSS3</p>
+          </div>
+          <div class="skill">
+            <img src="images/bootstrap.png" alt="" height="10px" />
+            <p>Bootstrap</p>
+          </div>
+          <div class="skill">
+            <img src="images/tailwind.png" alt="" height="10px" />
+            <p>Tailwind css</p>
+          </div>
+          <div class="skill">
+            <img src="images/sass.png" alt="" height="10px" />
+            <p>Sass</p>
+          </div>
+          <div class="skill">
+            <img src="images/javascript.png" alt="" />
+            <p>JavaScript</p>
+          </div>
+
+          <div class="skill">
+            <img src="images/es6.png" alt="" />
+            <p>ES6 +</p>
+          </div>
+
+          <div class="skill">
+            <img src="images/json.png" alt="" />
+            <p>JSON</p>
+          </div>
+          <div class="skill">
+            <img src="images/typescript.png" alt="" />
+            <p>Typescript</p>
+          </div>
+          <div class="skill">
+            <img src="images/react.png" alt="" />
+            <p>React JS</p>
+          </div>
+          <div class="skill">
+            <img src="images/redux.png" alt="" />
+            <p>Redux JS</p>
+          </div>
+          <div class="skill">
+            <img src="images/git.png" alt="" />
+            <p>Git</p>
+          </div>
+          <div class="skill">
+            <img src="images/github.png" alt="" />
+            <p>GitHub</p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="product-card">
-      <img src="images/firstcry-clone.png" alt="Product Image">
-      <div class="product-details">
-        <div class="product-name">FirstCry Clone
-        </div>
-        <div class="product-description">FirstCry aims to provide best of the products/brands at the best prices with a
-          great online shopping experience, fast delivery service.
-        </div>
-        <div class="project-tech">
-          <img src="images/html.png" style="height:35px; width: 35px;" alt="">
-          <img src="images/css.png" style="height:35px; width: 35px;" alt="">
-          <img src="images/javascript.png" style="height:35px; width: 35px;" alt="">
-          <img src="images/bootstrap.png" style="height:35px; width: 35px;" alt="">
-          <img src="images/git.png" style="height:35px; width: 35px;" alt="">
-          <img src="images/github.png" style="height:35px; width: 35px;" alt="">
-        </div>
-        <div class="product-buttons">
-          <a href="https://dazzling-sawine-c08f83.netlify.app/" target="_blank">
-            <button class="button">Live Demo</button>
-          </a>
-          <a href="https://github.com/ysathe991/FirstCry-clone" target="_blank">
-            <button class="button1">Code</button>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="product-card">
-      <img src="images/kfc-clone.png" alt="Product Image">
-      <div class="product-details">
-        <div class="product-name">KFC Clone
-        </div>
-        <div class="product-description">KFC stands for Kentucky Fried Chicken. It's a fast-food chain that's known for
-          its fried chicken. KFC also serves salads
-          and french fries.
-        </div>
-        <div class="project-tech">
-          <img src="images/html.png" style="height:35px; width: 35px;" alt="">
-          <img src="images/css.png" style="height:35px; width: 35px;" alt="">
-          <img src="images/javascript.png" style="height:35px; width: 35px;" alt="">
-          <img src="images/git.png" style="height:35px; width: 35px;" alt="">
-          <img src="images/github.png" style="height:35px; width: 35px;" alt="">
-        </div>
-        <div class="product-buttons">
-          <a href="https://incomparable-gingersnap-8dc3b0.netlify.app/" target="_blank">
-            <button class="button">Live Demo</button>
-          </a>
-          <a href="https://github.com/ysathe991/KFC-clone" target="_blank">
-            <button class="button1">Code</button>
-          </a>
+
+    <h1>Back End</h1>
+    <div class="skills-main" id="skills">
+      <div class="skills">
+        <div class="skill-set">
+          <div class="skill">
+            <img src="images/node.png" alt="" />
+            <p>Node JS</p>
+          </div>
+          <div class="skill">
+            <img src="images/express.png" alt="" />
+            <p>Express JS</p>
+          </div>
+
+          <div class="skill">
+            <img src="images/postman.png" alt="" />
+            <p>Postman</p>
+          </div>
+          <div class="skill">
+            <img src="images/npm.png" alt="" />
+            <p>NPM</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-
-  <section class="contact-me-section" id="contact">
-    <div class="contact-info">
-      <h2>Contact Me</h2>
-      <br>
-      <p>
-        Feel free to reach out to me via email or social media. I'd love to hear from you!
-      </p><br>
-      <p style="font-weight: bold;">Email: ysathe991@gmail.com</p><br>
-      <p style="font-weight: bold;">Phone no: +91 9049101160</p><br>
-      <p style="font-weight: bold;">City: Ahmednagar, India</p>
-
+    <h1>Database</h1>
+    <div class="skills-main" id="skills">
+      <div class="skills">
+        <div class="skill-set">
+          <div class="skill">
+            <img src="images/mongodb.png" alt="" />
+            <p>Mongo DB</p>
+          </div>
+          <div class="skill">
+            <img src="images/mysql.png" alt="" />
+            <p>MySQL</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d502146.46540728013!2d74.3257355674917!3d19.15920812623589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb05d46788921%3A0x6677e92c1a5181b6!2sAhmednagar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1702900823059!5m2!1sen!2sin"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h1>Projects</h1>
+    <div id="projects">
+      <div class="product-card">
+        <img src="images/weather-app.png" alt="Product Image" />
+        <div class="product-details">
+          <div class="product-name">Weather App</div>
+          <div class="product-description">
+            A weather application to get the temperature weather condition and
+            whether it is day or night of a particular city using accuweather .
+          </div>
+          <div class="project-tech">
+            <img
+              src="images/html.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+            <img
+              src="images/css.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+            <img
+              src="images/javascript.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+          </div>
+          <div class="product-buttons">
+            <a href="https://calm-pasca-14f00c.netlify.app/" target="_blank">
+              <button class="button">Live Demo</button>
+            </a>
+            <a href="https://github.com/ysathe991/Weather-App" target="_blank">
+              <button class="button1">Code</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="images/firstcry-clone.png" alt="Product Image" />
+        <div class="product-details">
+          <div class="product-name">FirstCry Clone</div>
+          <div class="product-description">
+            FirstCry aims to provide best of the products/brands at the best
+            prices with a great online shopping experience, fast delivery
+            service.
+          </div>
+          <div class="project-tech">
+            <img
+              src="images/html.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+            <img
+              src="images/css.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+            <img
+              src="images/javascript.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+            <img
+              src="images/bootstrap.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+            <img
+              src="images/git.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+            <img
+              src="images/github.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+          </div>
+          <div class="product-buttons">
+            <a
+              href="https://dazzling-sawine-c08f83.netlify.app/"
+              target="_blank"
+            >
+              <button class="button">Live Demo</button>
+            </a>
+            <a
+              href="https://github.com/ysathe991/FirstCry-clone"
+              target="_blank"
+            >
+              <button class="button1">Code</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="images/kfc-clone.png" alt="Product Image" />
+        <div class="product-details">
+          <div class="product-name">KFC Clone</div>
+          <div class="product-description">
+            KFC stands for Kentucky Fried Chicken. It's a fast-food chain that's
+            known for its fried chicken. KFC also serves salads and french
+            fries.
+          </div>
+          <div class="project-tech">
+            <img
+              src="images/html.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+            <img
+              src="images/css.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+            <img
+              src="images/javascript.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+            <img
+              src="images/git.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+            <img
+              src="images/github.png"
+              style="height: 35px; width: 35px"
+              alt=""
+            />
+          </div>
+          <div class="product-buttons">
+            <a
+              href="https://incomparable-gingersnap-8dc3b0.netlify.app/"
+              target="_blank"
+            >
+              <button class="button">Live Demo</button>
+            </a>
+            <a href="https://github.com/ysathe991/KFC-clone" target="_blank">
+              <button class="button1">Code</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
 
+    <section class="contact-me-section" id="contact">
+      <div class="contact-info">
+        <h2>Contact Me</h2>
+        <br />
+        <p>
+          Feel free to reach out to me via email or social media. I'd love to
+          hear from you!
+        </p>
+        <br />
+        <p style="font-weight: bold">Email: ysathe991@gmail.com</p>
+        <br />
+        <p style="font-weight: bold">Phone no: +91 9049101160</p>
+        <br />
+        <p style="font-weight: bold">City: Ahmednagar, India</p>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d502146.46540728013!2d74.3257355674917!3d19.15920812623589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb05d46788921%3A0x6677e92c1a5181b6!2sAhmednagar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1702900823059!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
 
-  <footer>
-    <div class="footer-copyright">
-      <p>Copyright @ 2022 All Rights Reserved.</p>
-    </div>
-  </footer>
-
-
-</body>
-<script src="script.js"></script>
-
+    <footer>
+      <div class="footer-copyright">
+        <p>Copyright @ 2022 All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
 </html>
