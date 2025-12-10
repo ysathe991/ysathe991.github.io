@@ -358,7 +358,7 @@ header .btnMenu {
 
 .skill-set {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(10, 1fr);
   gap: 15px;
 }
 
